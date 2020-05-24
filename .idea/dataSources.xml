@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="todoist@localhost" uuid="d3b2c022-9744-48c8-86a6-53d72f3edbcb">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/todoist</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="todoist@185.227.111.97" uuid="9e8ee5fc-fd96-4b42-8457-52d7081ae203">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://185.227.111.97:3306/todoist</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate:hibernate.cfg.xml/Hibernate" uuid="ca3e7603-aacf-4f78-a32e-042d5762889f">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/Home/IdeaProjects/planner/src/main/resources/hibernate/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://185.227.111.97:3306/todoist</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?><!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="validate.User" table="users">
+        <id name="id" column="id_user"/>
+        <property name="name" column="name" length="250"/>
+        <property name="nickname" column="nickname" length="150"/>
+        <property name="email" column="email" length="250"/>
+        <property name="password" column="password" length="32"/>
+    </class>
+
+</hibernate-mapping>
+

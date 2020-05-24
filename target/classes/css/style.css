@@ -1,0 +1,106 @@
+Button {
+    -fx-background-color: #DD4B39;
+    -fx-background-radius: 50px;
+}
+Button:hover{
+    -fx-background-color: #C53727;
+}
+TextField{
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 5px;
+    -fx-font-size: 15px;
+    -fx-font-family: "Segoe UI";
+    -fx-border-color: #E4E4E4;
+}
+.btn-back{
+    -fx-background-color: #FFFFFF;
+    -fx-graphic: url('../img/back.png');
+}
+TextField:hover{
+    -fx-border-color: #b0281a;
+}
+
+PasswordField{
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 5px;
+    -fx-font-size: 15px;
+    -fx-font-family: "Segoe UI";
+    -fx-border-color: #E4E4E4;
+}
+
+PasswordField:hover{
+    -fx-border-color: #b0281a;
+}
+
+AnchorPane{
+  -fx-background-color: #FFFFFF;
+}
+
+.btn-settings{
+    -fx-background-color: #db4c3f;
+    -fx-background-radius: 5px;
+    -fx-graphic: url('../img/settings.png');
+}
+.btn-settings:hover{
+    -fx-background-color: #E27065;
+}
+
+.btn-statistic{
+    -fx-background-color: #db4c3f;
+    -fx-background-radius: 5px;
+    -fx-graphic: url('../img/stasistic.png');
+}
+.btn-statistic:hover{
+    -fx-background-color: #E27065;
+}
+
+.btn-add{
+    -fx-background-color: #db4c3f;
+    -fx-background-radius: 5px;
+    -fx-graphic: url('../img/add.png');
+}
+
+.btn-add:hover{
+    -fx-background-color: #E27065;
+}
+
+.btn-exit{
+    -fx-background-color: #db4c3f;
+    -fx-background-radius: 5px;
+    -fx-graphic: url('../img/exit.png');
+}
+
+.btn-exit:hover{
+    -fx-background-color: #E27065;
+}
+
+.txf-search{
+    -fx-background-color: #E27065;
+    -fx-background-radius: 5px;
+    -fx-border-color: 0;
+    -fx-background-image: url('../img/search.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right center;
+}
+.txf-search:hover{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 5px;
+    -fx-border-color: 0;
+    -fx-background-image: url('../img/search2.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right center;
+}
+.check-box .box{
+    -fx-background-color: #FFFFFF;
+    -fx-border-color:#E4E4E4;
+
+}
+.check-box:selected .mark {
+    -fx-background-color: #FFFFFF;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #008000;
+
+}
+

@@ -1,0 +1,4 @@
+Label:hover{
+  -fx-text-fill: #c53727;
+    -fx-underline: true;
+}

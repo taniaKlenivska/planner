@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!--Database setting-->
+        <property name="connection.url">jdbc:mysql://185.227.111.97:3306/todoist</property>
+        <!--MySQL driver-->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <!--MySQL Dialect-->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <!--MySQL username-->
+        <property name="connection.username">sebii</property>
+        <!--MySQL password-->
+        <property name="connection.password">90331fearless</property>
+
+        <property name="hibernate.connection.characterEncoding">utf8</property>
+        <property name="hibernate.connection.useUnicode">true</property>
+
+        <mapping resource="hibernate/config/mapping.xml"/>
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>
